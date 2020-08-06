@@ -1,10 +1,9 @@
 // Tablet Screen
 @media (max-width: 768px) {
-  
   .banner {
-
     .banner-text {
       font: normal normal 30px/37px 'UTM';
+
       .small-text {
         font-size: 16px;
         line-height: 20px;
@@ -15,38 +14,63 @@
       }
     }
   }
+
+  .course {
+    .main-course {
+      margin-top: 55%;
+    }
+
+    .card-body {
+      .card-title {
+        font: normal bold 18px/25px 'UTM-B';
+      }
+
+      .card-text {
+        font: normal bold 14px/18px 'UTM-B';
+      }
+    }
+  }
 }
 
 // SmartPhone Screen
 @media (max-width: 425px) {
- 
   .list-menu {
     margin-top: 5%;
-    
+
     .nav-item {
       text-align: center;
       font-size: 16px;
       line-height: 22px;
       margin-bottom: 3%;
+    }
+  }
+
+  .banner {
+    .banner-text {
+      margin-top: 85%;
+      font: normal normal 25px/31px 'UTM';
+      letter-spacing: -0.05em;
+      
+      .small-text {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .start-learn-btn {
+        font: normal bold 18px/22px 'UTM';
+        margin-left: 20%;
       }
     }
+  }
+  .course {
+    .card-body {
+      .card-title {
+        font: normal bold 20px/25px 'UTM-B';
+      }
 
-    .banner {
-     
-      .banner-text {
-        margin-top: 85%;
-        font: normal normal 25px/31px 'UTM';
-        letter-spacing: -0.05em;
-
-        .small-text {
-          font-size: 16px;
-          line-height: 20px;
-        }
-
-        .start-learn-btn {
-          font: normal bold 18px/22px 'UTM';
-          margin-left: 20%;
-        }
+      .card-text {
+        font: normal bold 14px/18px 'UTM-B';
       }
     }
+  }
 }
