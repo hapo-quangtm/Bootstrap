@@ -1,0 +1,53 @@
+@import 'variable';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.list-menu {
+  .nav-item {
+    margin-right: 10px;
+    font: normal bold 14px/19px 'Open Sans';
+  }
+
+  .nav-item :hover {
+    background-color: $green-color;
+    border-radius: 17px;
+    color: $white-text !important;
+  }
+}
+
+.banner {
+  .banner-img {
+    position: relative;
+  }
+
+  .banner-text {
+    position: absolute;
+    font: normal normal 50px/61px 'UTM';
+    letter-spacing: -0.05em;
+    color: $violet-text;
+
+    .medium-text {
+      font-weight: bold;
+    }
+
+    .small-text {
+      font-size: 20px;
+      line-height: 25px;
+      color: #505353;
+    }
+
+    .start-learn-btn {
+      font: normal bold 30px/37px 'UTM';
+      color: $white-text;
+      background-color: $green-color;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 35px;
+    }
+  }
+}
+
+@import 'responsive';
+
