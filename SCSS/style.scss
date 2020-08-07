@@ -18,6 +18,12 @@ body {
   }
 }
 
+.header-footer {
+  background-image: linear-gradient(white, #E5E5E5);
+  height: 200px;
+  margin-bottom: -7rem;
+}
+
 .banner {
   .banner-img {
     position: relative;
@@ -54,6 +60,7 @@ body {
   align-items: center;
 
   .card {
+    border-radius: 20px;
     .html-img {
       background-color: #3F6185;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -111,6 +118,26 @@ body {
     border-radius: 22px;
     color: #ffffff;
   } 
+
+  .other-course-text {
+    font: normal bold 80px/90px 'UTM-B';
+    letter-spacing: -0.02em;
+    color: $violet-text;
+    text-decoration: underline solid $green-color ;
+  }
+
+  .view-all-of-course {
+    font: normal bold 40px/49px 'UTM';
+    letter-spacing: -0.02em;
+    
+    a {
+      color: #90AB26;
+    }
+  }
+
+  .view-all-of-course :hover {
+    font-size: larger;
+  }
 }
 
 @import 'responsive';

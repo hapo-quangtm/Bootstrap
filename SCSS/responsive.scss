@@ -16,10 +16,6 @@
   }
 
   .course {
-    .main-course {
-      margin-top: 55%;
-    }
-
     .card-body {
       .card-title {
         font: normal bold 18px/25px 'UTM-B';
@@ -28,6 +24,16 @@
       .card-text {
         font: normal bold 14px/18px 'UTM-B';
       }
+    }
+
+    .other-course-text {
+      font-size: 50px;
+      line-height: 61px;
+    }
+
+    .view-all-of-course {
+      font-size: 28px;
+      line-height: 34px;
     }
   }
 }
@@ -62,6 +68,9 @@
       }
     }
   }
+
+
+
   .course {
     .card-body {
       .card-title {
@@ -71,6 +80,16 @@
       .card-text {
         font: normal bold 14px/18px 'UTM-B';
       }
+    }
+
+    .other-course-text {
+      font-size: 40px;
+      line-height: 49px;
+    }
+
+    .view-all-of-course {
+      font-size: 22px;
+      line-height: 27px;
     }
   }
 }
