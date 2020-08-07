@@ -3,7 +3,7 @@
   .banner {
     .banner-text {
       font: normal normal 30px/37px 'UTM';
-
+     
       .small-text {
         font-size: 16px;
         line-height: 20px;
@@ -20,20 +20,40 @@
       .card-title {
         font: normal bold 18px/25px 'UTM-B';
       }
-
+  
       .card-text {
         font: normal bold 14px/18px 'UTM-B';
       }
     }
-
+  
     .other-course-text {
       font-size: 50px;
       line-height: 61px;
     }
-
+  
     .view-all-of-course {
       font-size: 28px;
       line-height: 34px;
+    }
+  }
+  
+  .why-hapo {
+    .why-hapo-top-img {
+      top: -120px;
+    }
+
+    .why-hapo-text {
+      font: normal bold 50px/61px 'UTM';
+      top: 30px;
+      left: 30%;
+    }
+    
+    .why-hapo-small-text {
+      ul {
+        li {
+          font: normal bold 16px/20px 'UTM';
+        }
+      }
     }
   }
 }
@@ -56,40 +76,58 @@
       margin-top: 85%;
       font: normal normal 25px/31px 'UTM';
       letter-spacing: -0.05em;
-
+  
       .small-text {
         font-size: 16px;
         line-height: 20px;
       }
-
+  
       .start-learn-btn {
         font: normal bold 18px/22px 'UTM';
         margin-left: 20%;
       }
     }
   }
-
-
-
+  
   .course {
     .card-body {
       .card-title {
         font: normal bold 20px/25px 'UTM-B';
       }
-
+  
       .card-text {
         font: normal bold 14px/18px 'UTM-B';
       }
     }
-
+  
     .other-course-text {
       font-size: 40px;
       line-height: 49px;
     }
-
+  
     .view-all-of-course {
       font-size: 22px;
       line-height: 27px;
+    }
+  }
+  
+  .why-hapo {
+    .why-hapo-top-img {
+      top: -80px;
+    }
+  
+    .why-hapo-text {
+      font: normal bold 40px/40px UTM;
+      top: 30px;
+      left: 30%;
+    }
+  
+    .why-hapo-small-text {
+      ul {
+        li {
+          font: normal bold 14px/17px UTM;
+        }
+      }
     }
   }
 }
