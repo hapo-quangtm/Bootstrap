@@ -115,7 +115,7 @@ body {
     background: $green-color;
     box-shadow: inset 0 1.5px 2px #6F8710;
     border-radius: 22px;
-    color: #ffffff;
+    color: $white;
   }
 
   .other-course-text {
@@ -129,7 +129,7 @@ body {
   .view-all-of-course {
     font: normal bold 40px/49px 'UTM';
     letter-spacing: -0.02em;
-    
+
     a {
       color: #90AB26;
     }
@@ -151,7 +151,7 @@ body {
   }
 
   .why-hapo-text {
-    color: #ffffff;
+    color: $white;
     font: normal bold 70px/86px 'UTM-B';
     letter-spacing: -0.02em;
     position: relative;
@@ -159,14 +159,12 @@ body {
   }
 
   .why-hapo-small-text {
-    ul {
-      li {
+    ul li {
         list-style-type: none;
-        color: #ffffff;
+        color: $white;
         font: normal bold 20px/25px 'UTM';
         letter-spacing: -0.05em;
       }
-    }
   }
 
   .why-hapo-bot-img {
