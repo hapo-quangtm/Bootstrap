@@ -3,18 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .list-menu {
   .nav-item {
     margin-right: 10px;
-    font: normal bold 14px/19px 'Open Sans';
+    font: normal bold 14px/19px Open Sans;
   }
-
+	
   .nav-item :hover {
     background-color: $green-color;
     border-radius: 17px;
     color: $white-text !important;
   }
 }
+
 .header-footer {
   background-image: linear-gradient(white, #E5E5E5);
   height: 200px;
@@ -25,25 +27,24 @@ body {
   .banner-img {
     position: relative;
   }
-
+	
   .banner-text {
     position: absolute;
-    font: normal normal 50px/61px 'UTM';
+    font: normal normal 50px/61px UTM;
     letter-spacing: -0.05em;
     color: $violet-text;
-
+	  
     .medium-text {
       font-weight: bold;
     }
-
     .small-text {
       font-size: 20px;
       line-height: 25px;
       color: #505353;
     }
-
+	  
     .start-learn-btn {
-      font: normal bold 30px/37px 'UTM';
+      font: normal bold 30px/37px UTM;
       color: $white-text;
       background-color: $green-color;
       box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -55,86 +56,84 @@ body {
 .course {
   text-align: center;
   align-items: center;
-
+	
   .card {
     border-radius: 20px;
-
+	  
     .html-img {
       background-color: #3F6185;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0px 0px;
     }
-
+	  
     .laravel-img {
       background-color: #DC594C;
       box-shadow: 0 0 10 rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
-
     .php-img {
       background-color: #556598;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
-
+	  
     .css-img {
       background-color: #24ABE2;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
-    
     .ruby-img {
       background-color: #E14E40;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
-
+	  
     .java-img {
       background-color: #1B75BB;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
   }
-
+	
   .card-body {
     .card-title {
-      font: normal bold 30px/37px 'UTM-B';
+      font: normal bold 30px/37px UTM;
       color: $green-color;
       letter-spacing: -0.05em;
     }
-
+	  
     .card-text {
-      font: normal bold 14px/20px 'UTM-B';
+      font: normal bold 14px/20px UTM;
       color: $black-text;
       -webkit-text-stroke: 0.5px $black-text;
       letter-spacing: -0.05em;
     }
   }
-
+	
   .take-course-btn {
     background: $green-color;
     box-shadow: inset 0 1.5px 2px #6F8710;
     border-radius: 22px;
     color: $white;
   }
-
+	
   .other-course-text {
-    font: normal bold 80px/90px 'UTM-B';
+    font: normal bold 80px/90px UTM;
     -webkit-text-stroke: 0.5px $violet-text;
     letter-spacing: -0.02em;
     color: $violet-text;
     text-decoration: underline solid $green-color;
   }
-
+	
   .view-all-of-course {
-    font: normal bold 40px/49px 'UTM';
+    font: normal bold 40px/49px UTM;
     letter-spacing: -0.02em;
-
+	  
     a {
       color: #90AB26;
     }
   }
-
+	
   .view-all-of-course :hover {
     font-size: larger;
   }
@@ -143,34 +142,87 @@ body {
 .why-hapo {
   background: url("../Image/backgr.png") no-repeat center/cover;
   position: relative;
-
+	
   .why-hapo-top-img {
     position: absolute;
-    top: -280px;
+    top: -210px;
     margin-left: -30px;
   }
-
+	
   .why-hapo-text {
     color: $white;
-    font: normal bold 70px/86px 'UTM-B';
+    font: normal bold 70px/86px UTM;
     letter-spacing: -0.02em;
     position: relative;
     top: 130px;
   }
-
+	
   .why-hapo-small-text {
     ul li {
-        list-style-type: none;
-        color: $white;
-        font: normal bold 20px/25px 'UTM';
-        letter-spacing: -0.05em;
-      }
+      list-style-type: none;
+      color: $white;
+      font: normal bold 20px/25px UTM;
+      letter-spacing: -0.05em;
+    }
   }
-
+	
   .why-hapo-bot-img {
     transform: scale(1.2);
     position: relative;
     margin-top: -5px;
   }
 }
+
+.become-member-content {
+  position: absolute;
+	
+  .become-member-text {
+    font: normal bold 60px/74px UTM;
+    letter-spacing: -0.02em;
+    color: $white;
+  }
+	
+  .become-member-btn {
+    width: 377px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto 0 auto;
+	  
+    a {
+      font: normal 30px/37px UTM;
+      letter-spacing: -0.05em;
+      color: #90AB26;
+      text-decoration: none;
+    }
+  }
+}
+
+.statistic {
+  .statistic-text {
+    font: bold 80px/90px UTM;
+    letter-spacing: -0.02em;
+    color: $violet-text;
+    text-decoration: underline solid $green-color;
+  }
+	
+  .statistic-count {
+    .count-text {
+      font: normal bold 60px/74px UTM;
+      letter-spacing: -0.05em;
+      color: $black-text;
+    }
+	  
+    .count-number {
+      font: normal bold 60px/74px UTM;
+      letter-spacing: -0.05em;
+      color: $green-color;
+    }
+  }
+}
+
 @import 'responsive';

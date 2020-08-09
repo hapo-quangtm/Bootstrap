@@ -2,65 +2,95 @@
 @media (max-width: 768px) {
   .banner {
     .banner-text {
-      font: normal normal 30px/37px 'UTM';
-     
+      font: normal normal 30px/37px UTM;
+		
       .small-text {
         font-size: 16px;
         line-height: 20px;
       }
-
+		
       .start-learn-btn {
-        font: normal bold 16px/20px 'UTM';
+        font: normal bold 16px/20px UTM;
       }
     }
   }
-
+	
   .course {
     .card-body {
       .card-title {
-        font: normal bold 18px/25px 'UTM-B';
+        font: normal bold 18px/25px UTM;
       }
-  
+		
       .card-text {
-        font: normal bold 14px/18px 'UTM-B';
+        font: normal bold 14px/18px UTM;
       }
     }
-  
+	  
     .other-course-text {
       font-size: 50px;
       line-height: 61px;
     }
-  
+	  
     .view-all-of-course {
       font-size: 28px;
       line-height: 34px;
     }
   }
-  
   .why-hapo {
     .why-hapo-top-img {
       top: -120px;
     }
-
+	  
     .why-hapo-text {
-      font: normal bold 50px/61px 'UTM';
+      font: normal bold 50px/61px UTM;
       top: 30px;
       left: 30%;
     }
-    
+	  
     .why-hapo-small-text {
       ul li {
-          font: normal bold 16px/20px 'UTM';
-        }
+        font: normal bold 16px/20px UTM;
       }
     }
+  }
+	
+  .become-member-content {
+    .become-member-text {
+      font: normal bold 35px/43px UTM;
+    }
+	  
+    .become-member-btn {
+      width: 250px;
+      height: 46.62px;
+      background: #FFFFFF;
+      a {
+        font: normal 20px/25px UTM;
+      }
+    }
+  }
+	
+  .statistic {
+    .statistic-text {
+      font: 50px/61px;
+    }
+	  
+    .statistic-count {
+      .count-text {
+        font: 40px/49px;
+      }
+		
+      .count-number {
+        font: 40px/49px;
+      }
+    }
+  }
 }
 
 // SmartPhone Screen
 @media (max-width: 425px) {
   .list-menu {
     margin-top: 5%;
-
+	  
     .nav-item {
       text-align: center;
       font-size: 16px;
@@ -68,62 +98,83 @@
       margin-bottom: 3%;
     }
   }
-
+	
   .banner {
     .banner-text {
       margin-top: 85%;
-      font: normal normal 25px/31px 'UTM';
+      font: normal normal 25px/31px UTM;
       letter-spacing: -0.05em;
-  
+		
       .small-text {
         font-size: 16px;
         line-height: 20px;
       }
-  
+		
       .start-learn-btn {
-        font: normal bold 18px/22px 'UTM';
+        font: normal bold 18px/22px UTM;
         margin-left: 20%;
       }
     }
   }
-  
+	
   .course {
     .card-body {
       .card-title {
-        font: normal bold 20px/25px 'UTM-B';
+        font: normal bold 20px/25px UTM;
       }
-  
+		
       .card-text {
-        font: normal bold 14px/18px 'UTM-B';
+        font: normal bold 14px/18px UTM;
       }
     }
-  
+	  
     .other-course-text {
       font-size: 40px;
       line-height: 49px;
     }
-  
+	  
     .view-all-of-course {
       font-size: 22px;
       line-height: 27px;
     }
   }
-  
+	
   .why-hapo {
     .why-hapo-top-img {
       top: -80px;
     }
-  
+	  
     .why-hapo-text {
       font: normal bold 40px/40px UTM;
       top: 30px;
       left: 30%;
     }
-  
+	  
     .why-hapo-small-text {
       ul li {
-          font: normal bold 14px/17px UTM;
-        }
+        font: normal bold 14px/17px UTM;
       }
+    }
+  }
+	
+  .become-member-content {
+    .become-member-text {
+      font: normal bold 23px/28px 'UTM';
+    }
+	  
+    .become-member-btn {
+      width: 200px;
+      height: 37.14px;
+		
+      a {
+        font: normal 18px/22px UTM;
+      }
+    }
+  }
+	
+  .statistic {
+    .statistic-text {
+      font: 40px/49px;
+    }
   }
 }
