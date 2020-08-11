@@ -226,18 +226,18 @@ body {
     background-color: $black-text;
 
     .footer-left {
-      font: normal normal 20px/25px UTM;
+      font: 20px/25px UTM;
       color: $white;
     }
 
     .footer-center {
-      font: normal bold 20px/25px UTM;
+      font: bold 20px/25px UTM;
     }
   }
 
   .cpy-right {
     background-color: #454545;
-    font: normal normal 15px/18px UTM;
+    font: 15px/18px UTM;
     letter-spacing: -0.05em;
     color: $white;
   }
@@ -264,7 +264,7 @@ body {
 
     .main-chat {
       .mess-chatbox-content {
-        font: normal normal 12px/16px 'Open Sans';
+        font: 12px/16px 'Open Sans';
 
         .hapo-learn-title {
           color: #7F7F7F;
@@ -282,14 +282,14 @@ body {
       border-radius: 10px;
 
       a {
-        font: normal bold 12px/16px 'Open Sans';
+        font: bold 12px/16px 'Open Sans';
         color: $white;
         letter-spacing: -0.02em;
       }
     }
 
     p {
-      font: normal bold 12px/16px 'Open Sans';
+      font: bold 12px/16px 'Open Sans';
       color: $black-text;
       letter-spacing: -0.02em;
     }
@@ -321,7 +321,7 @@ body {
     p {
       color: $black-text;
       -webkit-text-stroke: 0.3px $black-text;
-      font: normal 25px/31px UTM;
+      font: 25px/31px UTM;
     }
   }
 }
@@ -361,13 +361,13 @@ body {
 
 .user-comment {
   b {
-    font: normal bold 20px 'UTM BryantLG_B';
+    font: bold 20px 'UTM BryantLG_B';
     color: $violet-text;
     -webkit-text-stroke: 0.3px $violet-text;
   }
 
   p {
-    font: normal bold 16px 'UTM BryantLG_B';
+    font: bold 16px 'UTM BryantLG_B';
     color: $black-text;
   }
 
@@ -388,7 +388,6 @@ body {
     border-radius: 50%;
     border: 0.5px solid #C4C4C4;
     cursor: pointer; 
-    // @include sizeImage(30px, 30px);
   }
 }
 
