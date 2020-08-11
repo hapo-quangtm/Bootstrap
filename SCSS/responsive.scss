@@ -96,7 +96,12 @@
         font: normal bold 16px/22px UTM;
       }
     }
-}
+  }
+
+  .mess-contact {
+    bottom: 20px;
+    left: 40%;
+  }
 }
 // SmartPhone Screen
 @media (max-width: 425px) {
@@ -200,5 +205,10 @@
         font: normal bold 17px/21px UTM;
       }
     }
+  }
+
+  .mess-contact {
+    bottom: 20px;
+    left: -4%;
   }
 }
