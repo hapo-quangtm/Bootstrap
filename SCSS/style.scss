@@ -15,6 +15,7 @@ body {
     background-color: $green-color;
     border-radius: 17px;
     color: $white-text !important;
+    -webkit-text-stroke: 0.5px $white;
   }
 }
 

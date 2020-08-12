@@ -29,7 +29,8 @@ body {
 .list-menu .nav-item :hover {
   background-color: #B2D235;
   border-radius: 17px;
-  color: #FEFFFF !important; }
+  color: #FEFFFF !important;
+  -webkit-text-stroke: 0.5px #FEFFFF; }
 
 .header-footer {
   background-image: linear-gradient(white, #E5E5E5);
