@@ -167,7 +167,7 @@ body {
       transition: 0.4s; }
 
 .statistic .statistic-text {
-  font: bold 80px/90px UTM;
+  font: bolder 80px/90px 'UTM-B';
   letter-spacing: -0.02em;
   color: #11114E;
   text-decoration: underline solid #B2D235; }
@@ -399,6 +399,8 @@ body {
     left: 30%; }
   .why-hapo .why-hapo-small-text ul li {
     font: bold 14px/17px UTM; }
+  .why-hapo .why-hapo-small-text .why-hapo-bot-img {
+    margin-bottom: 50px; }
 
   .become-member-content .become-member-text {
     font: bold 23px/28px 'UTM'; }
@@ -415,6 +417,9 @@ body {
     font: 12px/17px UTM; }
   .footer .footer-main .footer-center {
     font: bold 17px/21px UTM; }
+
+  .feed-back {
+    height: 550px; }
 
   .feed-back-slogan .fb-slogan-up p {
     font: bold 40px/49px UTM; }
