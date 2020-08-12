@@ -7,7 +7,8 @@ body {
 .list-menu {
   .nav-item {
     margin-right: 10px;
-    font: normal bold 14px/19px Open Sans;
+    font: normal bold 14px/19px 'Open Sans';
+    -webkit-text-stroke: 0.5px $black-text;
   }
 	
   .nav-item :hover {
@@ -19,7 +20,7 @@ body {
 
 .header-footer {
   background-image: linear-gradient(white, #E5E5E5);
-  height: 200px;
+  height: 150px;
   margin-bottom: -7rem;
 }
 
@@ -57,7 +58,6 @@ body {
 
 .course {
   text-align: center;
-  align-items: center;
 	
   .card {
     border-radius: 20px;
@@ -172,12 +172,12 @@ body {
       font: normal bold 20px/25px UTM;
       letter-spacing: -0.05em;
     }
-  }
-	
-  .why-hapo-bot-img {
-    transform: scale(1.2);
-    position: relative;
-    margin-top: -5px;
+
+    .why-hapo-bot-img {
+      transform: scale(1.2);
+      position: relative;
+      margin-top: -5px;
+    }
   }
 }
 
@@ -391,13 +391,13 @@ body {
 
 .user-comment {
   b {
-    font: bold 20px 'UTM BryantLG_B';
+    font: bold 20px 'UTM';
     color: $violet-text;
     -webkit-text-stroke: 0.3px $violet-text;
   }
 
   p {
-    font: bold 16px 'UTM BryantLG_B';
+    font: bold 16px 'UTM';
     color: $black-text;
   }
 
