@@ -274,25 +274,22 @@
             <p>&copy; 2020 HapoLearn, Inc. All right reserved.</p>
         </div>
     </section>
-    <section class="mess-contact">
-        <div class="box-chat d-flex align-items-center flex-column mx-3">
-            <div class="d-flex main-chat">
-                <div class="mess-chatbox-img d-flex justify-content-center align-items-center p-2 pt-4"><img alt="" class="mr-3" src="./Image/Ellipse%207.png"></div>
-                <div class="mess-chatbox-content">
-                    <p class="mb-3 hapo-learn-title">Hapo Learn</p>
-                    <p class="chat-hello d-flex justify-content-center align-items-center pl-1 pr-4 py-1">Hapo Learn xin chào bạn<br>
-                    Bạn có cần chúng tôi hỗ trợ gì không?</p>
-                </div>
-                <div class="mess-chatbox-close">
-                    <button aria-label="Close" class="close" onclick="closeBtn()" type="button"><span>&times;</span></button>
-                </div>
+    <section class="hapolearn-messenger row">
+        <div class="hapolearn-messenger-chatbox p-2 col-12" id="chat">
+            <div class="hapolearn-messenger-chatbox-name col-9 m-auto pt-1">Hapo Learn</div>
+            <div class="hapolearn-messenger-chatbox-text row">
+                <img src="./Image/ower.png" alt="" class="col m-auto">
+                <p class="col-8">HapoLearn xin chào bạn.<br> Bạn có cần chúng tôi hỗ trợ gì không?</p>
+                <i class="fas fa-times-circle col-2" id="close-btn"></i>
             </div>
-            <div class="mess-chatbox-login col-10 p-0 text-center">
-                <a href="#"><img class="col-2 py-2 pr-3" src="./Image/Vector.png">Đăng nhập vào Messenger</a>
+            <div class="hapolearn-messenger-chatbox-login col-10 m-auto pt-3">
+                <button class="btn btn-info col-12 hapolearn-messenger-btnlogin p-2"><img src="./Image/Vector.png" class="mr-1 col-2">Đăng nhập vào Messenger</button>
+                <p class="mt-2">Chat với HapoLearn trong Messenger</p>
             </div>
-            <p class="text-center mt-2">Chat with HapoLearn in Messenger</p>
         </div>
-        <img alt="" class="mess-img mess-button position-fixed" onclick="messBtn()" src="./Image/Final-Mess-Icon.png">
+        <div class="col-12 pr-0">
+            <img src="./Image/Final-Mess-Icon.png" class="float-right hapolearn-messenger-icon" id="btn-mess">
+        </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
     </script> 

@@ -1,9 +1,21 @@
 $(document).ready(function(){
-  $('#header-button').click(function() {
-    $('#icon').toggleClass('fa-times');
-    $('#icon').toggleClass('fa-bars');
-  });
-  
+  $("#icon-navbar").click(function() {
+        $("#span-btn").toggleClass('fa-times');
+        $("#span-btn").toggleClass('fa-bars');
+    });
+
+    $("#btn-mess").click(function() {
+      $("#chat").toggle();
+    });
+
+    $("#close-btn").click(function() {
+        $("#chat").hide();
+      });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+
   $('.fb-content').slick({
     centerMode: false,
     infinite: true,
@@ -27,17 +39,3 @@ $(document).ready(function(){
     ]
   });
 });
-
-function messBtn() {
-  var messbtns = document.getElementById("chat");
-  if (messbtns.style.display == "block") {
-    messbtns.style.display = "none";
-  } else {
-    messbtns.style.display = "block";
-  }
-}
-  
-function closeBtn() {
-  var closebtns = document.getElementById("chat");
-  closebtns.style.display = "none";
-}

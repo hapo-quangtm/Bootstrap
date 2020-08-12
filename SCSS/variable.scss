@@ -5,7 +5,12 @@
 	  font-style: normal;
 	  font-weight: $font-weight;
 	  }
-  }
+}
+
+@mixin sizeImage ($width, $height){
+    width: $width;
+    height: $height;
+}
 
 @include font-face ('UTM', '../Font/UTMBryantLG.ttf', normal);
 @include font-face ('UTM-B', '../Font/UTMBryantLG_B.ttf', bold);
