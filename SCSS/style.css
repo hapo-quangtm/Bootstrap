@@ -1,0 +1,418 @@
+@font-face {
+  font-family: "UTM";
+  src: url("../Font/UTMBryantLG.ttf");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "UTM-B";
+  src: url("../Font/UTMBryantLG_B.ttf");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Open Sans-B";
+  src: url("../Font/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../Font/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: normal; }
+body {
+  margin: 0;
+  padding: 0; }
+
+.list-menu .nav-item {
+  margin-right: 10px;
+  font: normal bold 14px/19px Open Sans; }
+.list-menu .nav-item :hover {
+  background-color: #B2D235;
+  border-radius: 17px;
+  color: #FEFFFF !important; }
+
+.header-footer {
+  background-image: linear-gradient(white, #E5E5E5);
+  height: 200px;
+  margin-bottom: -7rem; }
+
+.banner .banner-text {
+  position: absolute;
+  font: normal normal 50px/61px UTM;
+  letter-spacing: -0.05em;
+  color: #11114E; }
+  .banner .banner-text .medium-text {
+    font-weight: bold; }
+  .banner .banner-text .small-text {
+    font-size: 20px;
+    line-height: 25px;
+    color: #505353; }
+  .banner .banner-text .start-learn-btn {
+    font: normal bold 30px/37px UTM;
+    color: #FEFFFF;
+    background-color: #B2D235;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px; }
+  .banner .banner-text :hover {
+    opacity: 0.7;
+    transition: 0.4s;
+    text-decoration: none; }
+
+.course {
+  text-align: center;
+  align-items: center; }
+  .course .card {
+    border-radius: 20px; }
+    .course .card .html-img {
+      background-color: #3F6185;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0px 0px; }
+    .course .card .laravel-img {
+      background-color: #DC594C;
+      box-shadow: 0 0 10 rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0; }
+    .course .card .php-img {
+      background-color: #556598;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0; }
+    .course .card .css-img {
+      background-color: #24ABE2;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0; }
+    .course .card .ruby-img {
+      background-color: #E14E40;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0; }
+    .course .card .java-img {
+      background-color: #1B75BB;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0; }
+  .course .card-body .card-title {
+    font: normal bold 30px/37px UTM;
+    color: #B2D235;
+    letter-spacing: -0.05em; }
+  .course .card-body .card-text {
+    font: normal bold 14px/20px UTM;
+    color: #505353;
+    -webkit-text-stroke: 0.5px #505353;
+    letter-spacing: -0.05em; }
+  .course .take-course-btn {
+    background: #B2D235;
+    box-shadow: inset 0 1.5px 2px #6F8710;
+    border-radius: 22px;
+    color: #FEFFFF; }
+    .course .take-course-btn:hover {
+      opacity: 0.7;
+      transition: 0.4s;
+      text-decoration: none; }
+  .course .other-course-text {
+    font: normal bold 80px/90px UTM;
+    -webkit-text-stroke: 0.5px #11114E;
+    letter-spacing: -0.02em;
+    color: #11114E;
+    text-decoration: underline solid #B2D235; }
+  .course .view-all-of-course {
+    font: normal bold 40px/49px UTM;
+    letter-spacing: -0.02em; }
+    .course .view-all-of-course a {
+      color: #90AB26; }
+  .course .view-all-of-course :hover {
+    font-size: larger; }
+
+.why-hapo {
+  background: url("../Image/backgr.png") no-repeat center/cover;
+  position: relative; }
+  .why-hapo .why-hapo-top-img {
+    position: absolute;
+    top: -210px;
+    margin-left: -30px; }
+  .why-hapo .why-hapo-text {
+    color: #FEFFFF;
+    font: normal bold 70px/86px UTM;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 130px; }
+  .why-hapo .why-hapo-small-text ul li {
+    list-style-type: none;
+    color: #FEFFFF;
+    font: normal bold 20px/25px UTM;
+    letter-spacing: -0.05em; }
+  .why-hapo .why-hapo-bot-img {
+    transform: scale(1.2);
+    position: relative;
+    margin-top: -5px; }
+
+.become-member-content {
+  position: absolute; }
+  .become-member-content .become-member-text {
+    font: normal bold 60px/74px UTM;
+    letter-spacing: -0.02em;
+    color: #FEFFFF; }
+  .become-member-content .become-member-btn {
+    width: 377px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto 0 auto; }
+    .become-member-content .become-member-btn a {
+      font: normal 30px/37px UTM;
+      letter-spacing: -0.05em;
+      color: #90AB26;
+      text-decoration: none; }
+    .become-member-content .become-member-btn:hover {
+      opacity: 0.7;
+      transition: 0.4s; }
+
+.statistic .statistic-text {
+  font: bold 80px/90px UTM;
+  letter-spacing: -0.02em;
+  color: #11114E;
+  text-decoration: underline solid #B2D235; }
+.statistic .statistic-count .count-text {
+  font: normal bold 60px/74px UTM;
+  letter-spacing: -0.05em;
+  color: #505353; }
+.statistic .statistic-count .count-number {
+  font: normal bold 60px/74px UTM;
+  letter-spacing: -0.05em;
+  color: #B2D235; }
+
+.footer .footer-main {
+  background-color: #505353; }
+  .footer .footer-main .footer-left {
+    font: 20px/25px UTM;
+    color: #FEFFFF; }
+  .footer .footer-main .footer-center {
+    font: bold 20px/25px UTM; }
+.footer .cpy-right {
+  background-color: #454545;
+  font: 15px/18px UTM;
+  letter-spacing: -0.05em;
+  color: #FEFFFF; }
+
+.footer-menu ul li a {
+  color: #FEFFFF; }
+
+.hapolearn-messenger {
+  position: fixed;
+  bottom: 20px;
+  right: 30px; }
+  .hapolearn-messenger .hapolearn-messenger-chatbox {
+    background-color: white;
+    border-radius: 23px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    display: none; }
+    .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text img {
+      height: 35px; }
+    .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text p {
+      margin-top: 5px;
+      padding: 15px;
+      background-color: #F1F0F0;
+      border-radius: 15px;
+      color: #505353;
+      -webkit-text-stroke: 0.3px;
+      font: 12px/17px 'Open Sans'; }
+    .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text i {
+      color: #C4C4C4;
+      font-size: 24px;
+      cursor: pointer;
+      margin-top: -10px; }
+    .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login p {
+      color: #B3B3B3;
+      text-align: center;
+      font: 12px/16px 'Open Sans'; }
+    .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-name {
+      font: 12px/16px 'Open Sans';
+      color: #7F7F7F; }
+  .hapolearn-messenger .hapolearn-messenger-icon {
+    cursor: pointer;
+    z-index: 2; }
+    .hapolearn-messenger .hapolearn-messenger-icon:hover {
+      transform: scale(1.1); }
+
+.hapolearn-messenger-btnlogin {
+  background: #3184F7;
+  border-radius: 10px;
+  font: 12px/16px 'Open Sans'; }
+
+.feed-back {
+  height: 650px; }
+
+.feed-back-slogan .fb-slogan-up p {
+  color: #11114E;
+  border-bottom: 5px solid #B2D235;
+  border-radius: 3px;
+  font: bold 80px/98px UTM;
+  letter-spacing: -0.02em; }
+.feed-back-slogan .fb-slogan-down p {
+  color: #505353;
+  -webkit-text-stroke: 0.3px #505353;
+  font: 25px/31px UTM; }
+
+.fb-user-content {
+  padding: 1.5em 1em;
+  border: 0.5px solid #E2E2E2;
+  box-shadow: 1px 1px 5px 0.5px #969694;
+  border-radius: 10px; }
+  .fb-user-content p {
+    border-left: 5px solid #D9DADC;
+    font: 16px UTM; }
+
+.fb-user-content:after, .fb-user-content:before {
+  content: '';
+  border: solid transparent;
+  position: absolute; }
+.fb-user-content:after {
+  border-top-color: #FEFFFF;
+  border-width: 10px;
+  margin: 25px 0 0 22px; }
+.fb-user-content:before {
+  border-top-color: #E2E2E2;
+  border-width: 12px;
+  margin: 98px 0 0 20px; }
+
+.user-comment b {
+  font: bold 20px 'UTM BryantLG_B';
+  color: #11114E;
+  -webkit-text-stroke: 0.3px #11114E; }
+.user-comment p {
+  font: bold 16px 'UTM BryantLG_B';
+  color: #505353; }
+.user-comment .checked {
+  color: #F2C54F; }
+
+.control-next {
+  font-size: 20px;
+  padding: 0 5px;
+  margin-top: -195px;
+  color: #969494; }
+  .control-next i {
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #C4C4C4;
+    cursor: pointer;
+    width: 30px;
+    height: 30px; }
+
+.next-left {
+  background-color: #FEFFFF;
+  margin-left: -5px; }
+
+.next-right {
+  margin-right: -12px;
+  background-color: #FEFFFF; }
+
+@media (max-width: 768px) {
+  .banner .banner-text {
+    font: normal normal 30px/37px UTM; }
+    .banner .banner-text .small-text {
+      font-size: 16px;
+      line-height: 20px; }
+    .banner .banner-text .start-learn-btn {
+      font: normal bold 16px/20px UTM; }
+
+  .course .card-body .card-title {
+    font: normal bold 18px/25px UTM; }
+  .course .card-body .card-text {
+    font: normal bold 14px/18px UTM; }
+  .course .other-course-text {
+    font-size: 50px;
+    line-height: 61px; }
+  .course .view-all-of-course {
+    font-size: 28px;
+    line-height: 34px; }
+
+  .why-hapo .why-hapo-top-img {
+    top: -120px; }
+  .why-hapo .why-hapo-text {
+    font: normal bold 50px/61px UTM;
+    top: 30px;
+    left: 30%; }
+  .why-hapo .why-hapo-small-text ul li {
+    font: normal bold 16px/20px UTM; }
+
+  .become-member-content .become-member-text {
+    font: normal bold 35px/43px UTM; }
+  .become-member-content .become-member-btn {
+    width: 250px;
+    height: 46.62px;
+    background: #FFFFFF; }
+    .become-member-content .become-member-btn a {
+      font: normal 20px/25px UTM; }
+
+  .statistic .statistic-text {
+    font: 50px/61px; }
+  .statistic .statistic-count .count-text {
+    font: 40px/49px; }
+  .statistic .statistic-count .count-number {
+    font: 40px/49px; }
+
+  .footer .footer-main .footer-left {
+    font: 16px/20px UTM; }
+  .footer .footer-main .footer-center {
+    font: bold 16px/22px UTM; } }
+@media (max-width: 425px) {
+  .list-menu {
+    margin-top: 5%; }
+    .list-menu .nav-item {
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 3%; }
+
+  .banner .banner-text {
+    margin-top: 85%;
+    font: 25px/31px UTM;
+    letter-spacing: -0.05em; }
+    .banner .banner-text .small-text {
+      font-size: 16px;
+      line-height: 20px; }
+    .banner .banner-text .start-learn-btn {
+      font: bold 18px/22px UTM;
+      margin-left: 20%; }
+
+  .course .card-body .card-title {
+    font: bold 20px/25px UTM; }
+  .course .card-body .card-text {
+    font: bold 14px/18px UTM; }
+  .course .other-course-text {
+    font-size: 40px;
+    line-height: 49px; }
+  .course .view-all-of-course {
+    font-size: 22px;
+    line-height: 27px; }
+
+  .why-hapo .why-hapo-top-img {
+    top: -80px; }
+  .why-hapo .why-hapo-text {
+    font: bold 40px/40px UTM;
+    top: 30px;
+    left: 30%; }
+  .why-hapo .why-hapo-small-text ul li {
+    font: bold 14px/17px UTM; }
+
+  .become-member-content .become-member-text {
+    font: bold 23px/28px 'UTM'; }
+  .become-member-content .become-member-btn {
+    width: 200px;
+    height: 37.14px; }
+    .become-member-content .become-member-btn a {
+      font: normal 18px/22px UTM; }
+
+  .statistic .statistic-text {
+    font: 40px/49px; }
+
+  .footer .footer-main .footer-left {
+    font: 12px/17px UTM; }
+  .footer .footer-main .footer-center {
+    font: bold 17px/21px UTM; }
+
+  .mess-contact {
+    bottom: 20px;
+    left: -4%; } }
+
+/*# sourceMappingURL=style.css.map */
