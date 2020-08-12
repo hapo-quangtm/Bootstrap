@@ -1,43 +1,13 @@
-function messBtn() {
-  var messbtns = document.getElementById("box-chat");
-  if (messbtns.style.display == "block") {
-    messbtns.style.display = "none";
-  } else {
-    messbtns.style.display = "block";
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
   }
-}
+  next.children(':first-child').clone().appendTo($(this));
   
-function closeBtn() {
-  var closebtns = document.getElementById("box-chat");
-  closebtns.style.display = "none";
-}
-
-$(document).ready(function(){
-  $('#header-button').click(function() {
-    $('#icon').toggleClass('fa-times');
-    $('#icon').toggleClass('fa-bars');
-  });
-  
-  $('.fb-content').slick({
-    centerMode: false,
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed : 2000,
-    pauseOnFocus: true,
-    pauseOnHover: true,
-    prevArrow: $('.next-left'),
-    nextArrow: $('.next-right'),
-    
-    responsive: [
-      {
-        breakpoint: 980,
-        settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-        }
-      }
-    ]
-  });
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
 });
