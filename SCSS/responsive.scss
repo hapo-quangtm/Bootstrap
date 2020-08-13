@@ -3,7 +3,11 @@
   .banner {
     .banner-text {
       font: normal normal 30px/37px UTM;
-		
+      letter-spacing: -0.05em;
+
+      .medium-text {
+        font: bold 30px/37px UTM-B;
+      }
       .small-text {
         font-size: 16px;
         line-height: 20px;
@@ -54,6 +58,10 @@
 	  
     .why-hapo-small-text {
       ul li {
+        img {
+          width: 20px;
+          height: 15px;
+        }
         font: normal bold 16px/20px UTM;
       }
     }
@@ -139,13 +147,18 @@
       }
 		
       .start-learn-btn {
+        display: inline-block;
+        width: 320px;
         font: bold 18px/22px UTM;
-        margin-left: 20%;
       }
     }
   }
 	
   .course {
+    .card {
+      margin-top: 80px;
+    }
+
     .card-body {
       .card-title {
         font: bold 20px/25px UTM;
@@ -163,13 +176,13 @@
 	  
     .view-all-of-course {
       margin-bottom: 50px;
-      font-size: 22px;
-      line-height: 27px;
-
-      & :hover {
-      opacity: 0.7;
-      transition: 0.4s;
+      b {
+        a {
+        font-size: 22px;
+        line-height: 27px;
+        }
       }
+      
     }
   }
 	
@@ -212,7 +225,10 @@
 	
   .statistic {
     .statistic-text {
-      font: 40px/49px;
+      p {
+      font: bolder 40px/49px UTM-B;
+      letter-spacing: -0.02em;
+      }
     }
   }
 

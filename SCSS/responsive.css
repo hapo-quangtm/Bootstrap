@@ -1,6 +1,9 @@
 @media (max-width: 768px) {
   .banner .banner-text {
-    font: normal normal 30px/37px UTM; }
+    font: normal normal 30px/37px UTM;
+    letter-spacing: -0.05em; }
+    .banner .banner-text .medium-text {
+      font: bold 30px/37px UTM-B; }
     .banner .banner-text .small-text {
       font-size: 16px;
       line-height: 20px; }
@@ -28,6 +31,9 @@
     left: 30%; }
   .why-hapo .why-hapo-small-text ul li {
     font: normal bold 16px/20px UTM; }
+    .why-hapo .why-hapo-small-text ul li img {
+      width: 20px;
+      height: 15px; }
   .why-hapo .why-hapo-bot-img {
     padding-top: 100px; }
 
@@ -73,9 +79,12 @@
         font-size: 16px;
         line-height: 20px; }
       .banner .banner-text .start-learn-btn {
-        font: bold 18px/22px UTM;
-        margin-left: 20%; }
+        display: inline-block;
+        width: 320px;
+        font: bold 18px/22px UTM; }
 
+  .course .card {
+    margin-top: 80px; }
   .course .card-body .card-title {
     font: bold 20px/25px UTM; }
   .course .card-body .card-text {
@@ -84,12 +93,10 @@
     font-size: 40px;
     line-height: 49px; }
   .course .view-all-of-course {
-    margin-bottom: 50px;
-    font-size: 22px;
-    line-height: 27px; }
-    .course .view-all-of-course :hover {
-      opacity: 0.7;
-      transition: 0.4s; }
+    margin-bottom: 50px; }
+    .course .view-all-of-course b a {
+      font-size: 22px;
+      line-height: 27px; }
 
   .why-hapo .why-hapo-top-img {
     top: -80px; }
@@ -110,8 +117,9 @@
     .become-member-content .become-member-btn a {
       font: normal 18px/22px UTM; }
 
-  .statistic .statistic-text {
-    font: 40px/49px; }
+  .statistic .statistic-text p {
+    font: bolder 40px/49px UTM-B;
+    letter-spacing: -0.02em; }
 
   .footer .footer-main .footer-left {
     font: 12px/17px UTM; }
