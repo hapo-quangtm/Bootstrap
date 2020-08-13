@@ -201,6 +201,8 @@ body {
 
 .footer-menu ul li a {
   color: #FEFFFF; }
+.footer-menu ul li :hover {
+  text-decoration: underline; }
 
 .hapolearn-messenger {
   position: fixed;
