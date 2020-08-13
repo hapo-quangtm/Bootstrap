@@ -7,6 +7,8 @@
     .banner .banner-text .start-learn-btn {
       font: normal bold 16px/20px UTM; }
 
+  .course .card .laravel-img {
+    height: 163.483px; }
   .course .card-body .card-title {
     font: normal bold 18px/25px UTM; }
   .course .card-body .card-text {
@@ -26,6 +28,8 @@
     left: 30%; }
   .why-hapo .why-hapo-small-text ul li {
     font: normal bold 16px/20px UTM; }
+  .why-hapo .why-hapo-bot-img {
+    padding-top: 100px; }
 
   .become-member-content .become-member-text {
     font: normal bold 35px/43px UTM; }
@@ -39,9 +43,9 @@
   .statistic .statistic-text {
     font: 50px/61px; }
   .statistic .statistic-count .count-text {
-    font: 40px/49px; }
+    font: bold 40px/49px UTM; }
   .statistic .statistic-count .count-number {
-    font: 40px/49px; }
+    font: bold 40px/49px UTM; }
 
   .footer .footer-main .footer-left {
     font: 16px/20px UTM; }
@@ -80,8 +84,12 @@
     font-size: 40px;
     line-height: 49px; }
   .course .view-all-of-course {
+    margin-bottom: 50px;
     font-size: 22px;
     line-height: 27px; }
+    .course .view-all-of-course :hover {
+      opacity: 0.7;
+      transition: 0.4s; }
 
   .why-hapo .why-hapo-top-img {
     top: -80px; }
@@ -92,7 +100,7 @@
   .why-hapo .why-hapo-small-text ul li {
     font: bold 14px/17px UTM; }
   .why-hapo .why-hapo-small-text .why-hapo-bot-img {
-    margin-bottom: 50px; }
+    padding-top: 0; }
 
   .become-member-content .become-member-text {
     font: bold 23px/28px 'UTM'; }
