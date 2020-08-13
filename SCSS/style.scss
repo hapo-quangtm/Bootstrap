@@ -28,7 +28,7 @@ body {
 .banner {	
   .banner-text {
     position: absolute;
-    font: normal normal 50px/61px UTM;
+    font: normal normal 50px/61px UTM-B;
     letter-spacing: -0.05em;
     color: $violet-text;
 	  
@@ -37,6 +37,7 @@ body {
     }
     .small-text {
       font-size: 20px;
+      letter-spacing: -0.05em;
       line-height: 25px;
       color: #505353;
     }
@@ -131,7 +132,10 @@ body {
     -webkit-text-stroke: 0.5px $violet-text;
     letter-spacing: -0.02em;
     color: $violet-text;
-    text-decoration: underline solid $green-color;
+    p {
+      border-bottom: 5px solid $green-color;
+    }
+    
   }
 	
   .view-all-of-course {
@@ -186,7 +190,7 @@ body {
   position: absolute;
 	
   .become-member-text {
-    font: normal bold 60px/74px UTM;
+    font: bolder 60px/74px 'UTM-B';
     letter-spacing: -0.02em;
     color: $white;
   }
@@ -203,7 +207,7 @@ body {
     margin: 14px auto 0 auto;
 	  
     a {
-      font: normal 30px/37px UTM;
+      font: bold 30px/37px UTM-B;
       letter-spacing: -0.05em;
       color: #90AB26;
       text-decoration: none;
@@ -218,10 +222,13 @@ body {
 
 .statistic {
   .statistic-text {
-    font: bolder 80px/90px 'UTM-B';
-    letter-spacing: -0.02em;
-    color: $violet-text;
-    text-decoration: underline solid $green-color;
+    p {
+      border-bottom: 5px solid $green-color;
+      border-radius: 3px;
+      font: bolder 80px/90px 'UTM-B';
+      letter-spacing: -0.02em;
+      color: $violet-text;
+    }
   }
 	
   .statistic-count {
