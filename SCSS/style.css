@@ -454,10 +454,19 @@ body {
 
   .footer .footer-main .footer-left {
     font: 12px/17px UTM; }
+    .footer .footer-main .footer-left img {
+      margin-left: 10px; }
+    .footer .footer-main .footer-left p {
+      margin-left: 12px; }
   .footer .footer-main .footer-center {
     font: bold 17px/21px UTM; }
   .footer .footer-main .footer-right {
-    margin-top: -30px; }
+    margin-top: -35px; }
+    .footer .footer-main .footer-right button {
+      padding-right: 0; }
+      .footer .footer-main .footer-right button img {
+        width: 35px;
+        height: 35px; }
 
   .feed-back {
     height: 550px; }

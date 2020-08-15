@@ -245,6 +245,13 @@
     .footer-main{
       .footer-left {
         font: 12px/17px UTM;
+        img {
+          margin-left: 10px
+        }
+        
+        p {
+          margin-left: 12px;
+        }
       }
   
       .footer-center {
@@ -252,7 +259,14 @@
       }
 
       .footer-right {
-        margin-top: -30px;
+        margin-top: -35px;
+        button {
+          padding-right: 0;
+          img {
+            width: 35px;
+            height: 35px;
+          }
+        }
       }
     }
   }
