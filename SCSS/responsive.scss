@@ -114,6 +114,14 @@
       }
     }
   }
+
+  .split-main-text {
+    -webkit-line-clamp: 4;
+  }
+
+  .split-other-text {
+    -webkit-line-clamp: 4;
+  }
 }
 
 // SmartPhone Screen
@@ -241,6 +249,10 @@
   
       .footer-center {
         font: bold 17px/21px UTM;
+      }
+
+      .footer-right {
+        margin-top: -30px;
       }
     }
   }

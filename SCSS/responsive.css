@@ -56,7 +56,13 @@
   .footer .footer-main .footer-left {
     font: 16px/20px UTM; }
   .footer .footer-main .footer-center {
-    font: bold 16px/22px UTM; } }
+    font: bold 16px/22px UTM; }
+
+  .split-main-text {
+    -webkit-line-clamp: 4; }
+
+  .split-other-text {
+    -webkit-line-clamp: 4; } }
 @media (max-width: 425px) {
   .list-menu {
     margin-top: 5%; }
@@ -126,6 +132,8 @@
     font: 12px/17px UTM; }
   .footer .footer-main .footer-center {
     font: bold 17px/21px UTM; }
+  .footer .footer-main .footer-right {
+    margin-top: -30px; }
 
   .feed-back {
     height: 550px; }

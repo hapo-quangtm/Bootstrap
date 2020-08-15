@@ -277,10 +277,6 @@ body {
   border-top-color: #FEFFFF;
   border-width: 10px;
   margin: 25px 0 0 22px; }
-.fb-user-content:before {
-  border-top-color: #E2E2E2;
-  border-width: 12px;
-  margin: 98px 0 0 20px; }
 
 .user-comment b {
   font: bold 20px 'UTM';
@@ -313,6 +309,18 @@ body {
 .next-right {
   margin-right: -12px;
   background-color: #FEFFFF; }
+
+.split-main-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; }
+
+.split-other-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
 
 @media (max-width: 768px) {
   .banner .banner-text {
@@ -372,7 +380,13 @@ body {
   .footer .footer-main .footer-left {
     font: 16px/20px UTM; }
   .footer .footer-main .footer-center {
-    font: bold 16px/22px UTM; } }
+    font: bold 16px/22px UTM; }
+
+  .split-main-text {
+    -webkit-line-clamp: 4; }
+
+  .split-other-text {
+    -webkit-line-clamp: 4; } }
 @media (max-width: 425px) {
   .list-menu {
     margin-top: 5%; }
@@ -442,6 +456,8 @@ body {
     font: 12px/17px UTM; }
   .footer .footer-main .footer-center {
     font: bold 17px/21px UTM; }
+  .footer .footer-main .footer-right {
+    margin-top: -30px; }
 
   .feed-back {
     height: 550px; }
