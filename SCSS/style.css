@@ -94,9 +94,8 @@ body {
     color: #B2D235;
     letter-spacing: -0.05em; }
   .course .card-body .card-text {
-    font: normal bold 14px/20px UTM;
+    font: bold 14px/20px UTM;
     color: #505353;
-    -webkit-text-stroke: 0.5px #505353;
     letter-spacing: -0.05em; }
   .course .take-course-btn {
     font: bold 18px/22px UTM;
@@ -117,7 +116,7 @@ body {
     .course .other-course-text p {
       border-bottom: 5px solid #B2D235; }
   .course .view-all-of-course b a {
-    font: bolder 40px/49px 'UTM-B';
+    font: bolder 40px/49px UTM-B;
     letter-spacing: -0.02em;
     color: #90AB26; }
   .course .view-all-of-course :hover :hover {
@@ -409,6 +408,8 @@ body {
   .course .other-course-text {
     font-size: 40px;
     line-height: 49px; }
+  .course .other-course {
+    margin-top: -50px; }
   .course .view-all-of-course {
     margin-bottom: 50px; }
     .course .view-all-of-course b a {

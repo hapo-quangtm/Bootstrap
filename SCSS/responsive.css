@@ -92,6 +92,8 @@
   .course .other-course-text {
     font-size: 40px;
     line-height: 49px; }
+  .course .other-course {
+    margin-top: -50px; }
   .course .view-all-of-course {
     margin-bottom: 50px; }
     .course .view-all-of-course b a {
