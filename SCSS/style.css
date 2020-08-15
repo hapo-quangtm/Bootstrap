@@ -405,7 +405,8 @@ body {
     font: bold 14px/18px UTM; }
   .course .other-course-text {
     font-size: 40px;
-    line-height: 49px; }
+    line-height: 49px;
+    margin-bottom: 80px; }
   .course .other-course {
     margin-top: -50px; }
   .course .view-all-of-course {
