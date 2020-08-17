@@ -359,7 +359,9 @@ body {
       width: 20px;
       height: 15px; }
   .why-hapo .why-hapo-bot-img {
-    padding-top: 100px; }
+    padding-top: 100px;
+    margin-left: 25px;
+    height: 300px; }
 
   .become-member-content .become-member-text {
     font: normal bold 35px/43px UTM; }
@@ -438,7 +440,9 @@ body {
   .why-hapo .why-hapo-small-text ul li {
     font: bold 14px/17px UTM; }
   .why-hapo .why-hapo-small-text .why-hapo-bot-img {
-    padding-top: 0; }
+    padding-top: 0;
+    margin-left: 35px;
+    height: 230px; }
 
   .become-member-content .become-member-text {
     font: bold 23px/28px 'UTM'; }
