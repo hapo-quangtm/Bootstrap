@@ -55,10 +55,11 @@
     .become-member-content .become-member-btn a {
       font: normal 20px/25px UTM; }
 
-  .statistic .statistic-text {
-    font: 50px/61px; }
+  .statistic .statistic-text p {
+    font: 50px/61px UTM;
+    -webkit-text-stroke: 2px #11114E; }
   .statistic .statistic-count .count-text {
-    font: bold 40px/49px UTM; }
+    font: bold 40px/49px UTM-B; }
   .statistic .statistic-count .count-number {
     font: bold 40px/49px UTM; }
 
@@ -72,6 +73,12 @@
 
   .split-other-text {
     -webkit-line-clamp: 4; } }
+.feed-back-slogan .fb-slogan-up p {
+  font: bold 50px/61px UTM-B;
+  -webkit-text-stroke: 1px #11114E; }
+.feed-back-slogan .fb-slogan-down p {
+  font: 18px/22px UTM; }
+
 @media (max-width: 425px) {
   .list-menu {
     margin-top: 5%; }
@@ -138,8 +145,8 @@
       font: normal 18px/22px UTM; }
 
   .statistic .statistic-text p {
-    font: bolder 40px/49px UTM-B;
-    letter-spacing: -0.02em; }
+    font: 40px/49px UTM;
+    -webkit-text-stroke: 2px #11114E; }
 
   .footer .footer-main .footer-left {
     font: 12px/17px UTM; }
