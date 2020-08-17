@@ -11,11 +11,18 @@
       font: normal bold 16px/20px UTM; }
 
   .course .card .laravel-img {
-    height: 163.483px; }
-  .course .card-body .card-title {
-    font: normal bold 18px/25px UTM; }
-  .course .card-body .card-text {
-    font: normal bold 14px/18px UTM; }
+    height: 142.033px; }
+  .course .card-body {
+    padding-top: 5px;
+    padding-bottom: 8px; }
+    .course .card-body .card-title {
+      margin-bottom: 0;
+      font: normal bold 18px/25px UTM; }
+    .course .card-body .card-text {
+      font: 14px/18px UTM;
+      -webkit-text-stroke: 0.2px #11114E; }
+  .course .take-course-btn {
+    font: bold 10px/12px UTM; }
   .course .other-course-text {
     font-size: 50px;
     line-height: 61px; }
@@ -94,7 +101,9 @@
   .course .card-body .card-title {
     font: bold 20px/25px UTM; }
   .course .card-body .card-text {
-    font: bold 14px/18px UTM; }
+    font: 14px/18px UTM; }
+  .course .take-course-btn {
+    font: bold 18px/22px UTM; }
   .course .other-course-text {
     font-size: 40px;
     line-height: 49px;

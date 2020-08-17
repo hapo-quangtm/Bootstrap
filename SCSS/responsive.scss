@@ -22,17 +22,25 @@
   .course {
     .card {
       .laravel-img {
-        height: 163.483px;
+        height: 142.033px;
       }
     }
     .card-body {
+      padding-top: 5px;
+      padding-bottom: 8px ;
       .card-title {
+        margin-bottom: 0;
         font: normal bold 18px/25px UTM;
       }
 		
       .card-text {
-        font: normal bold 14px/18px UTM;
+        font: 14px/18px UTM;
+        -webkit-text-stroke: 0.2px #11114E;
       }
+    }
+
+    .take-course-btn {
+      font: bold 10px/12px UTM;
     }
 	  
     .other-course-text {
@@ -171,8 +179,12 @@
       }
 		
       .card-text {
-        font: bold 14px/18px UTM;
+        font: 14px/18px UTM;
       }
+    }
+
+    .take-course-btn {
+      font: bold 18px/22px UTM;
     }
 	  
     .other-course-text {
